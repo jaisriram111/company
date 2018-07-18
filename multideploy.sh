@@ -1,4 +1,5 @@
 #!/bin/bash
+$i=1
 for i in `cat ip.txt`
  do
    echo "Deploying war file in to $i QA server"
